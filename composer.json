@@ -8,13 +8,8 @@
       "email": "nasservb@gmail.com"
     }
   ],
-  "keywords": [
-    "laravel",
-    "Bulk",
-  ],
-  "require": {
-    "php": "^7.2|^8.0",
-  },
+  "keywords": ["laravel","Bulk"],
+  "require": { "php": "^7.2|^8.0" },
   "require-dev": {
     "predis/predis": "^1.1.9",
     "phpunit/phpunit": "^8.0|^9.3"
@@ -27,3 +22,4 @@
   "minimum-stability": "dev",
   "prefer-stable": true
 }
+

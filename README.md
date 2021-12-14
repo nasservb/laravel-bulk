@@ -1,6 +1,5 @@
 # Laravel Bulk Operation Tool
-
-[![Latest Stable Version](https://poser.pugx.org/tamayo/laravel-scout-elastic/v)](//packagist.org/packages/tamayo/laravel-scout-elastic) [![Total Downloads](https://poser.pugx.org/tamayo/laravel-scout-elastic/downloads)](//packagist.org/packages/tamayo/laravel-scout-elastic) [![License](https://poser.pugx.org/tamayo/laravel-scout-elastic/license)](//packagist.org/packages/tamayo/laravel-scout-elastic) ![Build Status](https://travis-ci.org/ErickTamayo/laravel-scout-elastic.svg?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/nasservb/laravel-bulk/v)](//packagist.org/packages/nasservb/laravel-bulk) [![Total Downloads](https://poser.pugx.org/nasservb/laravel-bulk/downloads)](//packagist.org/packages/nasservb/laravel-bulk) [![License](https://poser.pugx.org/nasservb/laravel-bulk/license)](//packagist.org/packages/nasservb/laravel-bulk) 
 
 This package provides Bulk operation for Laravel projects.
 
@@ -121,3 +120,4 @@ it's depend on cach size and redis capablility.
 ## License
 
 The MIT License (MIT).
+

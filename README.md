@@ -36,7 +36,7 @@ After you've published the Laravel Bulk package configuration, you need to set y
 // .env
 REDIS_HOST=redis
 REDIS_PASSWORD=null
-REDIS_PORT=6379`
+REDIS_PORT=6379
 
 ```
 

@@ -43,7 +43,7 @@ REDIS_PORT=6379`
 
 ## Usage
 
-###What's the Problem and How to solve it?
+### What's the Problem and How to solve it?
 
 when you need to save data to the DB, and this data is obtained over time such as page visit count or the number of like, it is not a good idea to insert data into the database for each request.
 
@@ -68,12 +68,12 @@ or for saving likes:
             });
 ```
 
-###How does this work internally?
+### How does this work internally?
 - This code uses the Redis RPUSH command to add data to the cache,
 - Check cache size with Redis LLEN command,
 - And when the cache is full, release them with the Redis LRANGE command and delete the cache items with the Redis DEL command.
 
-###What are the benefits?
+### What are the benefits?
 If you have a direct insert in each request and replace it with the Redis::bulk function, your performance will be 10 times better in the default configuration. you can configure your cache size with:
 ```php 
 	app('bulk')
@@ -92,7 +92,7 @@ for saving likes:
                 $post->likes()->sync($likes);
             });
 ```
-###How to extract cache data?
+### How to extract cache data?
 And improve the performance again, but keep in mind that when the cache is large, saving your data will be delayed until the cache is full and remains in memory.
 
 When the execution of your code is going to finish, you need to release data from the cache and save it to DB.
